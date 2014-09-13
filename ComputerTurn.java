@@ -122,13 +122,13 @@ public class ComputerTurn extends JPanel{
 	// Private Implementation:
 	//---------------------------------------------------------------------------|
   
-  public String getTurn( ){
+  	public String getTurn( ){
     
-    String randomMove [] = { ROCK, PAPER, SCISSOR };
-    Random rand = new Random( );
+    		String randomMove [] = { ROCK, PAPER, SCISSOR };
+    		Random rand = new Random( );
     
-    return( randomMove[rand.nextInt(3));
-  }
+    		return( randomMove[rand.nextInt(3)]);
+  	}
   
 	public static void main(String[] args){
 		JFrame runGUI = new JFrame( );
