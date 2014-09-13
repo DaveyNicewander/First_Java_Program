@@ -62,12 +62,13 @@ public class ComputerTurn extends JPanel{
 		//Initializing Object:( Automated )
 		//--------------------------------------------------------------------------|
 
-		computerTurnLabel = new JLabel( "" );
+		computerTurnLabel = new JLabel( "Computer Last Move:" );
 		computerTurnField = new JTextField( );
 
 		computerTurnField.setMaximumSize( textFieldDimension );
 		computerTurnField.setMinimumSize( textFieldDimension );
 		computerTurnField.setFont( textFieldFont );
+		computerTurnField.setEditable( false );
 
 		//--------------------------------------------------------------------------|
 
