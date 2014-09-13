@@ -62,10 +62,10 @@ public class PlayerStatistic extends JPanel{
 		//--------------------------------------------------------------------------|
 
 		winLabel = new JLabel( "Total Wins:" );
-		winField = new JTextField( );
+		winField = new JTextField( "0" );
 
 		losesLabel = new JLabel( "Total Loses:" );
-		losesField = new JTextField( );
+		losesField = new JTextField( "0" );
 
 		winField.setMaximumSize( textFieldDimension );
 		winField.setMinimumSize( textFieldDimension );
